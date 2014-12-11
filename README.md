@@ -1,0 +1,4 @@
+dynamArray
+==========
+
+practice C program
