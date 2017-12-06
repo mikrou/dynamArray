@@ -1,7 +1,6 @@
-CC: gcc
-CFLAGS=-std=C99
+CC = gcc
 
-dynamArray: dynamArray.c Vector.h
-	$(cc) $(CFLAGS) -o dynamArray dynamArray.c Vector.h
+dynamArray: dynamArray.c vector.h
+	$(CC) -o dynamArray dynamArray.c vector.h
 clean:
-	rm *o dynamArray
+	rm dynamArray
